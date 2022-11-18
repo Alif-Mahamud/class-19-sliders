@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+#main{
+  
+}
+
+
+.overly{
+    padding: 320px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.sliders{
+  
+    background: url(../images/p1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.one{
+    background: url(../images/p2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.two{
+    background: url(../images/p3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.three{
+    background: url(../images/p4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.four{
+    background: url(../images/p5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.five{
+    background: url(../images/p6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slider_part{
+    position: relative;
+}
+
+.prev{
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    transform: translateY(-50%);
+    z-index: 9999;
+    font-size: 50px;
+    color: #fff;
+}
+
+.prev:hover{
+    color: #000;
+}
+
+.next:hover{
+    color: #000;
+}
+.next{
+    position: absolute;
+    top: 50%;
+    right: 80px;
+    transform: translateY(-50%);
+    z-index: 9999;
+    font-size: 50px;
+    color: #fff;
+}
+
+.slick-dots{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    list-style-type: none;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+button{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 0;
+    margin-right: 10px;
+    text-indent: -9999px;
+}
+
+li.slick-active button{
+    background: red;
+}
